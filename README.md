@@ -35,3 +35,5 @@ trazemos o arquivo em que faremos de fato a validação.
 Neste arquivo, `cli.js`, nos concentramos em duas tarefas importantes: processar o texto e imprimir a lista. Para tanto, definimos duas funções assíncronas, `processaTexto()` e `imprimeLista()`. A função `processaTexto()` recebe um `caminho` por parâmetro. Dentro dela, é feito o tratamento de erro para verificar, por exemplo, se o arquivo ou diretório existe e no final ela utiliza a função `imprimeLista()` para exprimir a lista de fato.
 
 Esta última lista, a `imprimeLista()`, recebe `valida`, `resultado` e `identificador` por parâmetro, este útimo contendo o valor padrão `''`. Se `valida` for `true`, então exibimos no console a lista validada por meio da função `listaValidada()` passando por parâmetro `resultado`, que é quem guarda o nosso arquivo de texto em Markdown. Do contrário, exibimos no console apenas `identificador` e `resultado` sem validação.
+
+...
